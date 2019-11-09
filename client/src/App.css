@@ -31,3 +31,49 @@
     transform: rotate(360deg);
   }
 }
+.players{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin: 15rem;
+}
+
+h1{
+  color:purple;
+}
+.nav {
+  align-items: center;
+  border-bottom: 1px solid grey;
+  display: flex;
+  height: 70px;
+  justify-content: space-around;
+  padding: .5rem;
+ 
+}
+
+.dkClicked {
+  position: relative;
+  width: 45px;
+}
+
+.toggle {
+  background: lightblue;
+  border: 2px solid grey;
+  border-radius: 10px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 40px;
+}
+
+.toggled {
+  background-color:black;
+}
+
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+}
+  
